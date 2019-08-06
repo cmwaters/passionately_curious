@@ -25,9 +25,11 @@ Make sure you have python3, pip and git installed
 
 ## Usage
 
-Make sure you are in the root directory. Then execute the following command to run the server locally: 
-
+Make sure you are in the root directory. Then execute the following command to run the server locally: \
 `$ python3 manage.py runserver`
+
+Open your browser and go to the following url: \
+`http://127.0.0.1:8000/`
 
 ## General
 
