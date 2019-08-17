@@ -1,21 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="736fec1a-7ebd-4f72-989d-7d8e5a6fa6c3" name="Default Changelist" comment="" />
+    <list default="true" id="736fec1a-7ebd-4f72-989d-7d8e5a6fa6c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/passionatelycurious/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passionatelycurious/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passionatelycurious/templates/library.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/passionatelycurious.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/passionatelycurious.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/img/chevron-bottom-colour.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/img/chevron-bottom-colour.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/particles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/particles.json" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/particles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/js/particles.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/js/particles.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/account-login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/account-login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/account-logout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/account-logout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/action-redo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/action-redo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/action-undo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/action-undo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/align-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/align-center.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/align-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/align-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/align-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/align-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/aperture.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/aperture.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-circle-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-circle-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-circle-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-circle-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-circle-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-circle-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-circle-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-circle-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-thick-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-thick-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-thick-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-thick-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-thick-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-thick-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-thick-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-thick-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/arrow-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/arrow-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/audio-spectrum.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/audio-spectrum.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/audio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/audio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/ban.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/ban.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bar-chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bar-chart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/basket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/battery-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/battery-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/battery-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/battery-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/beaker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/beaker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bluetooth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bluetooth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bolt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bolt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/british-pound.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/british-pound.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/browser.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/browser.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/brush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/brush.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/bullhorn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/bullhorn.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/calculator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/camera-slr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/camera-slr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/caret-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/caret-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/caret-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/caret-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/caret-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/caret-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/caret-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/caret-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/chevron-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/chevron-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/chevron-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/chevron-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/chevron-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/chevron-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/chevron-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/chevron-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/circle-check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/circle-check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/circle-x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/circle-x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cloud-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cloud-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cloud-upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cloud-upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cloudy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cloudy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/cog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/cog.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/collapse-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/collapse-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/collapse-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/collapse-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/collapse-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/collapse-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/collapse-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/collapse-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/command.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/command.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/comment-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/comment-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/compass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/contrast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/contrast.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/copywriting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/copywriting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/credit-card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/crop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/crop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/dashboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/dashboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/data-transfer-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/data-transfer-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/data-transfer-upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/data-transfer-upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/dial.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/dial.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/document.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/document.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/dollar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/dollar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/double-quote-sans-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/double-quote-sans-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/double-quote-sans-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/double-quote-sans-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/double-quote-serif-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/double-quote-serif-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/double-quote-serif-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/double-quote-serif-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/droplet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/droplet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/eject.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/eject.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/elevator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/elevator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/ellipses.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/ellipses.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/envelope-closed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/envelope-closed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/envelope-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/envelope-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/euro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/euro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/excerpt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/excerpt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/expand-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/expand-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/expand-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/expand-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/expand-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/expand-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/expand-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/expand-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/external-link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/external-link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/eyedropper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/eyedropper.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/file.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/file.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/fire.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/fire.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/flag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/flash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/flash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/fork.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/fork.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/fullscreen-enter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/fullscreen-enter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/fullscreen-exit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/fullscreen-exit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/globe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/graph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/graph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/grid-four-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/grid-four-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/grid-three-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/grid-three-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/grid-two-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/grid-two-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/hard-drive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/hard-drive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/header.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/headphones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/headphones.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/inbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/inbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/infinity.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/infinity.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/info.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/justify-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/justify-center.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/justify-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/justify-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/justify-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/justify-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/laptop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/layers.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/layers.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/lightbulb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/lightbulb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/link-broken.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/link-broken.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/link-intact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/link-intact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/list-rich.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/list-rich.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/lock-locked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/lock-locked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/lock-unlocked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/lock-unlocked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/loop-circular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/loop-circular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/loop-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/loop-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/loop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/loop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/magnifying-glass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/magnifying-glass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/map-marker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/map-marker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-record.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-record.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-skip-backward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-skip-backward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-skip-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-skip-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-step-backward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-step-backward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-step-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-step-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/media-stop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/media-stop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/medical-cross.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/medical-cross.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/microphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/microphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/monitor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/monitor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/musical-note.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/musical-note.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/paperclip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/paperclip.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/pcicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/pcicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/pencil.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/pencil.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/people.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/person.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/person.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/pie-chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/pie-chart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/play-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/play-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/power-standby.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/power-standby.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/print.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/print.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/project.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/project.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/pulse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/pulse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/puzzle-piece.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/puzzle-piece.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/question-mark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/question-mark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/rain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/rain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/random.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/random.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/reload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/reload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/resize-both.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/resize-both.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/resize-height.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/resize-height.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/resize-width.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/resize-width.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/rss-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/rss-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/script.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/script.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/share-boxed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/share-boxed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/shield.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/shield.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/signal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/signal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/signpost.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/signpost.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/sort-ascending.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/sort-ascending.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/sort-descending.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/sort-descending.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/spreadsheet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/spreadsheet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/sun.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/sun.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/tablet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/tablet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/tag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/tag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/tags.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/tags.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/target.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/target.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/task.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/task.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/terminal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/terminal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/text.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/thumb-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/thumb-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/thumb-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/thumb-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/timer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/timer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/transfer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/transfer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/underline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/underline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/vertical-align-bottom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/vertical-align-bottom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/vertical-align-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/vertical-align-center.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/vertical-align-top.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/vertical-align-top.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/video.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/video.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/volume-high.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/volume-high.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/volume-low.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/volume-low.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/volume-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/volume-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/wifi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/wifi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/wrench.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/wrench.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/yen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/yen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/zoom-in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/zoom-in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/static/home/svg/zoom-out.svg" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/static/svg/zoom-out.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/templates/home/assets/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/templates/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/templates/home/machineintelligence.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/passionatelycurious/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/passionatelycurious/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="253">
-                <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+              <first_editor relative-caret-position="322">
+                <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,10 +291,7 @@
         <entry file="file://$PROJECT_DIR$/passionatelycurious/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -37,49 +299,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/passionatelycurious/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="62" column="59" lean-forward="true" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="616">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home/home.html">
+        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3006">
-              <caret line="296" column="70" selection-start-line="296" selection-start-column="70" selection-end-line="296" selection-end-column="70" />
+            <state relative-caret-position="989">
+              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home/machineintelligence.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passionatelycurious/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="348">
+              <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passionatelycurious/apps.py">
+        <entry file="file://$PROJECT_DIR$/passionatelycurious/static/js/particles.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/about.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/passionatelycurious/admin.py">
+        <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/library.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pa</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,17 +367,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/home/urls.py" />
-        <option value="$PROJECT_DIR$/passionatelycurious/urls.py" />
-        <option value="$PROJECT_DIR$/passionatelycurious/views.py" />
-        <option value="$PROJECT_DIR$/passionatelycurious/settings.py" />
-        <option value="$PROJECT_DIR$/passionatelycurious/templates/home/home.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/passionatelycurious/static/home/js/particles.json" />
+        <option value="$PROJECT_DIR$/passionatelycurious/templates/home/home.html" />
+        <option value="$PROJECT_DIR$/passionatelycurious/views.py" />
+        <option value="$PROJECT_DIR$/passionatelycurious/urls.py" />
+        <option value="$PROJECT_DIR$/passionatelycurious/settings.py" />
+        <option value="$PROJECT_DIR$/passionatelycurious/templates/home.html" />
+        <option value="$PROJECT_DIR$/passionatelycurious/templates/header.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,24 +396,6 @@
               <item name="passionatelycurious" type="b2602c69:ProjectViewProjectNode" />
               <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="passionatelycurious" type="b2602c69:ProjectViewProjectNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="passionatelycurious" type="b2602c69:ProjectViewProjectNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="passionatelycurious" type="b2602c69:ProjectViewProjectNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-              <item name="passionatelycurious" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -139,14 +404,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/passionatelycurious/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/passionatelycurious" />
+      <recent name="$PROJECT_DIR$/passionatelycurious/templates" />
+      <recent name="$PROJECT_DIR$/passionatelycurious/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -196,27 +468,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565098287187</updated>
-      <workItem from="1565098288715" duration="3539000" />
+      <workItem from="1565098288715" duration="16021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3539000" />
+    <option name="totallyTimeSpent" value="16021000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12017167" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32923833" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32923833" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -243,56 +515,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passionatelycurious/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/passionatelycurious/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/passionatelycurious/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home/machineintelligence.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/machineintelligence.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="99" lean-forward="true" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/static/js/particles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/about.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/assets/icon.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/passionatelycurious/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/chevron-bottom-colour.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/im_cover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/passionatelycurious/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="62" column="59" lean-forward="true" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        <state relative-caret-position="616">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home/home.html">
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/library.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3006">
-          <caret line="296" column="70" selection-start-line="296" selection-start-column="70" selection-end-line="296" selection-end-column="70" />
+        <state relative-caret-position="989">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="253">
-            <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2183" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/passionatelycurious/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

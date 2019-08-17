@@ -1,9 +1,13 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
-def index(request):
-    # return HttpResponse('Welcome to the Tinyapp\'s Homepage!')
-    return render(request, 'home/home.html')
+def home(request):
+    return render(request, 'home.html')
+
+def about(request):
+    return render(request, 'about.html')
+
+def library(request):
+    return render(request, 'library.html')
 
 def machineintelligence(request):
-    return render(request, 'home/machineintelligence.html')
+    return render(request, 'templates/machineintelligence.html')
