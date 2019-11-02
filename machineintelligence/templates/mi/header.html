@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passionately Curious</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
+    {% block head %}
+    {% endblock %}
+    <style>
+        body {
+            background-color: #eaeaea;
+        }
+        a {
+            text-decoration: none;
+        }
+        .navbar {
+            position: fixed;
+            height:80px;
+            width:100%;
+            top:0px;
+            left:0px;
+            background-color: white;
+            box-shadow: 0 1px 8px rgba(0,0,0,0.08)
+        }
+        .navbar .option {
+            display: inline-block;
+            float:right;
+            padding:30px;
+            padding-right: 0px;
+            color:black;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            {#font-weight: bold;#}
+            letter-spacing: 1px;
+        }
+
+       .menu_icon {
+            text-align: center;
+            margin-top:-18px;
+            width:40px;
+            font-size:25px;
+            height:50px;
+            color:red;
+            font-family: 'Open Sans', sans-serif;
+            border: 3px solid red;
+            background-color: transparent;
+        }
+        .menu_icon .element {
+            font-size: 10px;
+            font-weight: bold;
+            margin-bottom:-8px;
+        }
+        .menu_icon .atomic_weight {
+            margin-top: -4px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+
+        .chapters {
+            display: none;
+            font-family: 'Open Sans', sans-serif;
+            color:white;
+            letter-spacing: 1px;
+            font-size:14px;
+            position:fixed;
+            top:80px;
+            left:0px;
+            background-color: #888a94;
+            width:100%;
+        }
+
+        .chapters .label {
+            color:red;
+            font-family: sans-serif;
+            font-size:12px;
+            font-weight: 800;
+            background-color: white;
+            border-radius:5px;
+            padding:3px;
+        }
+
+        .chapters td{
+            border-bottom: 1px solid transparent;
+        }
+
+        .chapters td:hover{
+            border-bottom: 1px solid white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div style="width: 1200px; margin:auto;">
+            <div id="subject_title" style="cursor: pointer;">
+                <div class="option" style="float:left; padding-left:0px;">
+                    <div class="menu_icon">
+                        <div class="element">1</div>
+                        Im
+                        <div class="atomic_weight">1.008</div>
+                    </div>
+                </div>
+                <div class="option" style="float:left; padding-left:12px;">
+                    INTELLIGENT MACHINES
+                </div>
+                <div class="option" style="float:left; padding-left:12px;">
+                    <div style="height: 4px; width: 4px; border-radius: 50%; background-color: black; margin-top:8px;"></div>
+                </div>
+                <div class="option" style="float:left; padding-left:12px; font-style: italic;">
+                    AN INTRODUCTION
+                </div>
+            </div>
+            <a href="/">
+                <div class="option">
+                    HOME
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <div style="height:80px; width: 100%;"></div>
+    <div class="chapters">
+        <div style="margin:auto; width:1200px; padding:20px;">
+            <table cellspacing="18px" style="width:100%;">
+                <tr>
+                    <td style="width:33%;">1. AN INTRODUCTION</td>
+                    <td style="width:33%;">2. ELECTRONICS</td>
+                    <td style="width:33%;">3. LOGIC</td>
+                </tr>
+                <tr style="padding:100px;">
+                    <td style="width:33%;">4. TIME</td>
+                    <td style="width:33%;">5. TURING MACHINES</td>
+                    <td style="width:33%;">6. MEMORY</td>
+                </tr>
+                <tr style="margin:10px;">
+                    <td style="width:33%;">7. INPUT/OUTPUT</td>
+                    <td style="width:33%;">8. REPROGRAMMABLE PROCESSORS</td>
+                    <td style="width:33%;">9. COMPUTER ARCHITECTURE</td>
+                </tr>
+                <tr style="margin:10px;">
+                    <td style="width:33%;">10. COMPUTER LANGUAGE</td>
+                    <td style="width:33%;">11. PROGRAMMING LANGUAGES</td>
+                    <td style="width:33%;">12. ADVANCED TOPICS</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            var chapters_visible = false;
+            $("#subject_title").click(function () {
+                if (!chapters_visible) {
+                    chapters_visible = true;
+                    $('.chapters').slideDown();
+                } else {
+                    chapters_visible = false;
+                    $('.chapters').slideUp();
+                }
+
+            });
+        });
+    </script>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

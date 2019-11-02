@@ -1,0 +1,79 @@
+{% extends 'mi/header.html' %}
+{% load static %}
+{% block head %}
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #eaeaea;
+        }
+        a {
+            text-decoration: none;
+        }
+        .main {
+            margin-top:10px;
+            margin-left:auto;
+            margin-right: auto;
+            width:1300px;
+        }
+        .content {
+            width:900px;
+            margin-left:auto;
+            margin-right: auto;
+            padding:150px;
+            background-color: white;
+            height:1200px;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        .header {
+            padding-top:120px;
+            text-align: center;
+
+        }
+        .header .subtitle {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+        .header .title {
+
+            color: black;
+            font-family: 'Jomolhari', serif;
+            font-size: 60px;
+        }
+        .paragraph {
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+
+
+
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="main" onmouseover="">
+        <div class="content">
+            <div class="header">
+                <div class="subtitle">CHAPTER ONE</div>
+                <div class="title">
+                    An Introduction
+                </div>
+                <hr style="width:300px; margin-bottom: 80px;">
+                <div class="paragraph">
+                    It's often hard to think with the ubiquity of our ever faithful yet enigmatic companions that there
+                    was a time in which they simply didn't exist. It's difficult even just to pull back and hold some sort of a perspective
+                    where we are able to realise how much they pervade each and every one of us. Computers are very much
+                    the brain child of modern society. We hang our hat on it, we look to it as a sign of our advancement in the past
+                    and our direction for the future. So for those most passionately curious about the life we have
+                    stumbled into, then I find there is no better place to start then with intelligent machines.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    
+    </script>
+{% endblock %}

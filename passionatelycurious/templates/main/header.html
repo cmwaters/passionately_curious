@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Passionately Curious</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
+    {% block head %}
+    {% endblock %}
+    <style>
+        body {
+            background-color: #eaeaea;
+        }
+        a {
+            text-decoration: none;
+        }
+        .navbar {
+            position: fixed;
+            height:80px;
+            width:100%;
+            top:0px;
+            left:0px;
+            background-color: white;
+            {#box-shadow: 0 1px 2px rgba(0,0,0,0.08)#}
+        }
+        .navbar .option {
+            display: inline-block;
+            float:right;
+            padding:30px;
+            padding-right: 0px;
+            color:black;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            {#font-weight: bold;#}
+            letter-spacing: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div style="width: 1200px; margin:auto;">
+            <div class="option" style="float:left; padding-left:0px;">
+                PASSIONATELY CURIOUS
+{#               <img style="width: 50px;" src="{% static 'img/pc_logo.svg' %}" alt="Passionately Curious">#}
+            </div>
+{#            <div class="option" style="float:left;">#}
+{#                PASSIONATELY CURIOUS#}
+{#            </div>#}
+            <div class="option">
+                LIBRARY
+            </div>
+            <div class="option">
+                ABOUT
+            </div>
+        </div>
+    </div>
+    <div style="height:80px; width: 100%;"></div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
