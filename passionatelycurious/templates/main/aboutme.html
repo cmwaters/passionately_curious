@@ -1,0 +1,74 @@
+{% extends 'main/about_header.html' %}
+{% load static %}
+{% block head %}
+    <link href="https://fonts.googleapis.com/css?family=Jomolhari&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #eaeaea;
+        }
+        a {
+            text-decoration: none;
+        }
+        .main {
+            margin-top:10px;
+            margin-left:auto;
+            margin-right: auto;
+            width:1300px;
+        }
+        .content {
+            width:900px;
+            margin-left:auto;
+            margin-right: auto;
+            padding:150px;
+            background-color: white;
+            height:1200px;
+            border-top-right-radius: 8px;
+            border-top-left-radius: 8px;
+        }
+        .header {
+            padding-top:120px;
+            text-align: center;
+
+        }
+        .header .subtitle {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+        }
+        .header .title {
+
+            color: black;
+            font-family: 'Jomolhari', serif;
+            font-size: 60px;
+        }
+        .paragraph {
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+
+
+
+    </style>
+{% endblock %}
+{% block content %}
+    <div class="main" onmouseover="">
+        <div class="content">
+            <div class="header">
+                <div class="subtitle">THE</div>
+                <div class="title">
+                    Why?
+                </div>
+                <hr style="width:300px; margin-bottom: 80px;">
+                <div class="paragraph">
+                    Hello World.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    
+    </script>
+{% endblock %}

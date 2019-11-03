@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Passionately Curious</title>
+    <title>PC - About</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <script type="text/javascript" src="{% static 'main/js/jquery-3.3.1.js' %}"></script>
     {% block head %}
@@ -41,19 +41,20 @@
 <body>
     <div class="navbar">
         <div style="width: 1200px; margin:auto;">
-            <div class="option" style="float:left; padding-left:0px;">
-                PASSIONATELY CURIOUS
-{#               <img style="width: 50px;" src="{% static 'img/pc_logo.svg' %}" alt="Passionately Curious">#}
-            </div>
-{#            <div class="option" style="float:left;">#}
-{#                PASSIONATELY CURIOUS#}
-{#            </div>#}
-            <div class="option">
-                LIBRARY
-            </div>
-            <a href="/about/">
-                <div class="option">
+            <div id="subject_title" style="cursor: pointer;">
+                <div class="option" style="float:left; padding-left:12px;">
                     ABOUT
+                </div>
+                <div class="option" style="float:left; padding-left:12px;">
+                    <div style="height: 4px; width: 4px; border-radius: 50%; background-color: black; margin-top:8px;"></div>
+                </div>
+                <div class="option" style="float:left; padding-left:12px; font-style: italic;">
+                    THE WHY
+                </div>
+            </div>
+            <a href="/">
+                <div class="option">
+                    HOME
                 </div>
             </a>
         </div>
