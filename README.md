@@ -31,7 +31,7 @@ Make sure you are in the root directory. Then execute the following command to r
 Open your browser and go to the following url: \
 `http://127.0.0.1:8000/`
 
-## General
+## Development
 
 ### Architecture
 
